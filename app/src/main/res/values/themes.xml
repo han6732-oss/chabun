@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 기본은 부드러운 다크(창 배경도 어둡게). 시스템을 따르도록 설정하면 화면은 Compose 테마가 바꾼다. -->
+    <style name="Theme.Chabun" parent="android:Theme.DeviceDefault.DayNight">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/chabun_background</item>
+        <item name="android:statusBarColor">@color/chabun_background</item>
+        <item name="android:navigationBarColor">@color/chabun_background</item>
+    </style>
+</resources>

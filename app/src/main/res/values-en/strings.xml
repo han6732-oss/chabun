@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chabun</string>
+
+    <!-- 공통 -->
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="minutes">%d min</string>
+    <string name="percent">%d%%</string>
+    <string name="level">Level %d</string>
+    <string name="celsius">%.1f℃</string>
+    <string name="joined">%1$s: %2$s</string>
+    <string name="list_separator">", "</string>
+
+    <!-- 홈 -->
+    <string name="home_subtitle">Where would you like to rest today?</string>
+    <string name="action_voice">Speak</string>
+    <string name="action_new_scene">Custom scene</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_edit">Edit</string>
+    <string name="tab_my_scenes">My scenes</string>
+    <string name="tab_brand_hall">Brand lounge</string>
+    <string name="brand_hall_caption">Airline and hotel rest, brought into your car (fictional brands for demo)</string>
+    <string name="brand_badge">Fictional brand</string>
+    <string name="parking_not_connected">Vehicle not connected</string>
+    <string name="parking_checking">Checking vehicle status</string>
+    <string name="parking_driving">Driving, available once parked</string>
+    <string name="parking_brake">P, parking brake, %s</string>
+    <string name="parking_ok">Parked in P, %s</string>
+    <string name="favorite_add">Favorite</string>
+    <string name="favorite_remove">Remove favorite</string>
+    <string name="card_tap_to_start">Tap to start</string>
+    <string name="card_park_first">Available once parked</string>
+    <string name="add_scene_caption">Sound, lighting, seat and climate, your way</string>
+    <string name="fact_ambient">%1$s %2$d%%</string>
+    <string name="fact_no_sound">No sound</string>
+    <string name="fact_seat">Seat reclined %d%%</string>
+    <string name="wake_charge_target">Wake at %d%% charge</string>
+    <string name="wake_charge_end">Wake as charging ends</string>
+    <string name="wake_default_minutes">Wake after %d min by default</string>
+    <string name="wake_manual">Until I end it</string>
+
+    <!-- 시간 고르기 -->
+    <string name="picker_subtitle">How long will you rest? Pick one to start</string>
+    <string name="picker_default">Default</string>
+    <string name="picker_custom">Set your own</string>
+    <string name="picker_rest_for">Rest %d min</string>
+    <string name="picker_charge_target">Wake at %d%% charge</string>
+    <string name="picker_charge_end">Wake as charging ends</string>
+    <string name="picker_one_minute">1-min trial</string>
+
+    <!-- 휴식 화면 -->
+    <string name="phase_entering">Switching to the scene…</string>
+    <string name="phase_resting">Resting</string>
+    <string name="phase_waking">Brightening the lights to wake you…</string>
+    <string name="phase_restoring">Restoring the car…</string>
+    <string name="phase_done">All done</string>
+    <string name="session_wake_later">until a gentle wake-up</string>
+    <string name="session_end_any_time">End whenever you like</string>
+    <string name="masking_line">Engine masking: engine hum becomes cruising airflow</string>
+    <string name="route_remaining">Route left</string>
+    <string name="end">End</string>
+    <string name="charge_target_suffix">"  /  target %d%%"</string>
+    <string name="charge_checking">Checking charging status</string>
+    <string name="charge_waiting">Start charging and I\'ll wake you as it ends</string>
+    <string name="charge_minutes_left">Charging ends in %d min. I\'ll wake you then</string>
+    <string name="charge_minutes_left_estimated">Charging ends in about %d min. I\'ll wake you then</string>
+    <string name="charge_in_progress">Charging. I\'ll wake you as it ends</string>
+    <string name="vehicle_status">Vehicle status</string>
+    <string name="safety_title">Safety watch (%s)</string>
+    <string name="safety_parking">Parked</string>
+    <string name="safety_parking_detail">Leaving P ends the rest and restores the car at once</string>
+    <string name="safety_vent">Periodic ventilation</string>
+    <string name="vent_now">Ventilating: %s</string>
+    <string name="vent_next">Next in %1$s, %2$d done</string>
+    <string name="vent_waiting">Waiting to ventilate</string>
+    <string name="safety_rest_limit">Max rest</string>
+    <string name="rest_limit_left">%s left while idling</string>
+    <string name="safety_masking">Engine masking</string>
+    <string name="masking_detail">Covering %1$s idle ~%2$drpm, %3$dHz harmonics</string>
+    <string name="safety_charge">Charging</string>
+    <string name="charge_on">Charging, wakes you near %d%%</string>
+    <string name="charge_off">Waiting, starts when the charger is connected</string>
+    <string name="safety_battery">Battery</string>
+    <string name="battery_checking">Checking</string>
+    <string name="battery_floor_charge">%1$s, wakes you below %2$d%% unless charging</string>
+    <string name="battery_floor">%1$s, wakes you below %2$d%%</string>
+    <string name="step_running">Applying</string>
+
+    <!-- 설정 -->
+    <string name="settings_screen">Display</string>
+    <string name="theme_soft_dark">Soft dark</string>
+    <string name="theme_system">Follow system day/night</string>
+    <string name="settings_language">Language</string>
+    <string name="language_voice_note">Voice commands work in Korean</string>
+    <string name="settings_vehicle">Vehicle type</string>
+    <string name="powertrain_auto">Auto-detect (%s)</string>
+    <string name="powertrain_try">Simulate %s engine</string>
+    <string name="quick_cycles">Short demo cycles</string>
+    <string name="quick_cycles_detail">Vent 15 s every minute, engine car max rest 5 min, battery check every 5 s</string>
+    <string name="voice_guide">Voice guidance</string>
+    <string name="voice_guide_detail">Announces scene start, wake-up and safety release</string>
+    <string name="route_briefing">Route briefing after waking</string>
+    <string name="route_briefing_detail">If navigation is guiding, tells you the distance, time and arrival left after waking</string>
+
+    <!-- 음성 -->
+    <string name="voice_listening_hint">Listening. Speak Korean, e.g. \'우주 유영 켜줘\', \'깨워줘\'</string>
+    <string name="voice_stop">Stop listening</string>
+    <string name="voice_heard">“%s”</string>
+    <string name="voice_already_resting">“%s”: already resting</string>
+    <string name="voice_not_resting">“%s”: not resting right now</string>
+    <string name="voice_unknown">“%1$s”: %2$s</string>
+    <string name="voice_unknown_hint">Try saying \'우주 유영 켜줘\'</string>
+    <string name="stt_preparing">Preparing speech recognition</string>
+    <string name="stt_start_failed">Couldn\'t start speech recognition</string>
+    <string name="stt_mic">Microphone unavailable</string>
+    <string name="stt_permission">No speech recognition permission</string>
+    <string name="stt_language">Korean speech recognition unavailable</string>
+    <string name="stt_timeout">Didn\'t catch that</string>
+    <string name="stt_error">Speech recognition error (%s)</string>
+
+    <!-- 편집 -->
+    <string name="editor_new">New scene</string>
+    <string name="editor_edit">Edit scene</string>
+    <string name="reset_default">Restore defaults</string>
+    <string name="delete_scene">Delete this scene</string>
+    <string name="section_name">Name</string>
+    <string name="field_scene_name">Scene name</string>
+    <string name="field_tagline">One-line intro</string>
+    <string name="section_backdrop">Background image</string>
+    <string name="backdrop_color_only">Light color only</string>
+    <string name="section_sound">Sound</string>
+    <string name="sound_none">None</string>
+    <string name="preview_play">Preview</string>
+    <string name="preview_stop">Stop preview</string>
+    <string name="masking_option_detail">In engine cars, covers idle noise with a low cabin hum (not for EVs)</string>
+    <string name="toggle_off_detail">Leave it as it is now</string>
+    <string name="brightness">Brightness</string>
+    <string name="section_recline">Seat recline</string>
+    <string name="recline_range">Upright ↔ Deep</string>
+    <string name="section_climate">Climate</string>
+    <string name="temperature">Temperature</string>
+    <string name="fan">Fan</string>
+    <string name="recirc_in">Recirculate</string>
+    <string name="recirc_out">Fresh air</string>
+    <string name="section_window">Window ventilation</string>
+    <string name="keep_as_is">Leave as is</string>
+    <string name="window_close">Close</string>
+    <string name="window_open">Open %d%%</string>
+    <string name="section_steering">Steering heat before waking</string>
+    <string name="steering_detail">Turns on 1 minute before waking so the wheel is warm (timer or charge wake-up)</string>
+    <string name="steering_off">Off</string>
+    <string name="section_default_wake">Default wake-up</string>
+    <string name="default_wake_detail">Preselected when you tap the scene. You can change the time each time you start</string>
+    <string name="wake_manual_short">End manually</string>
+    <string name="charge_end_option">As charging ends</string>
+    <string name="charge_target">Charge target</string>
+    <string name="charge_to_limit">Car\'s charge limit</string>
+    <string name="charge_target_detail">Wakes you a little before the target. If it is above the car\'s charge limit, wakes you at the limit</string>
+    <string name="trial_title">Feel it in the car</string>
+    <string name="trial_on">Seat and lights move as you change them</string>
+    <string name="trial_off">Turning it off or closing restores the car</string>
+
+    <!-- 소리·배경·조명 색 -->
+    <string name="sound_cabin">Airplane cabin</string>
+    <string name="sound_rain">Cabin in the rain</string>
+    <string name="sound_space">Space</string>
+    <string name="sound_forest">Forest path</string>
+    <string name="backdrop_cabin">Airplane window</string>
+    <string name="backdrop_space">Earth orbit</string>
+    <string name="backdrop_rain_cabin">Rainy window</string>
+    <string name="backdrop_forest">Dawn forest path</string>
+    <string name="backdrop_first_suite">First suite</string>
+    <string name="backdrop_hotel_suite">Hotel suite</string>
+    <string name="ambient_cabin_purple">Cabin purple</string>
+    <string name="ambient_deep_space">Deep space navy</string>
+    <string name="ambient_amber">Firelight amber</string>
+    <string name="ambient_forest_green">Dawn forest green</string>
+    <string name="ambient_deep_sea">Deep sea</string>
+    <string name="ambient_sunset_pink">Sunset pink</string>
+    <string name="ambient_moon_cream">Moonlight cream</string>
+    <string name="ambient_theater_red">Theater crimson</string>
+
+    <!-- 차량 -->
+    <string name="domain_seat">Seat</string>
+    <string name="domain_climate">Climate</string>
+    <string name="domain_ambient">Ambient light</string>
+    <string name="domain_window">Window</string>
+    <string name="domain_steering">Steering heat</string>
+    <string name="powertrain_gasoline">Gasoline</string>
+    <string name="powertrain_diesel">Diesel</string>
+    <string name="powertrain_lpg">LPG</string>
+    <string name="powertrain_hybrid">Hybrid</string>
+    <string name="powertrain_electric">Electric</string>
+    <string name="powertrain_hydrogen">Hydrogen fuel cell</string>
+    <string name="powertrain_unknown">Unknown</string>
+
+    <!-- 차량 제어 단계 -->
+    <string name="step_hvac_power_off">Power off (no fan control)</string>
+    <string name="step_fan">Fan level %d</string>
+    <string name="step_climate_failed">Climate control failed</string>
+    <string name="step_window_open">Front windows %d%% open</string>
+    <string name="step_window_failed">Window control failed</string>
+    <string name="step_seat_original">Original position (%d)</string>
+    <string name="step_seat_recline">Backrest %1$d (%2$d%% reclined)</string>
+    <string name="step_steering_prewarm">Level %d before waking</string>
+    <string name="step_steering_restored">Restored</string>
+    <string name="step_lights_up">Slowly brightening</string>
+    <string name="step_breeze">Cool breeze</string>
+    <string name="step_breeze_unavailable">No airflow (climate off)</string>
+    <string name="step_climate_restored">Climate restored</string>
+    <string name="step_lights_restored">Lights restored</string>
+    <string name="step_window_closed">Windows closed</string>
+    <string name="step_brightness">Brightness %d%%</string>
+    <string name="step_color">Color #%06X</string>
+    <string name="step_lights_failed">Lighting control failed</string>
+    <string name="step_unsupported">Not supported on this vehicle</string>
+    <string name="step_seat_not_moving">Skipped: the seat isn\'t moving</string>
+    <string name="vent_window">Front windows %d%%</string>
+    <string name="vent_fan">Fan up</string>
+    <string name="vent_nothing">Nothing available to ventilate</string>
+    <string name="vent_preparing">Preparing to ventilate</string>
+
+    <!-- 안내·알림 -->
+    <string name="vehicle_connect_failed">Couldn\'t connect to the vehicle: %s</string>
+    <string name="start_park_only">Chabun can only start while parked in P</string>
+    <string name="charge_ev_only">Charge wake-up is for electric vehicles</string>
+    <string name="battery_too_low">Didn\'t start: the battery is at %1$d%%, below the floor (%2$d%%)</string>
+    <string name="battery_already_target">The battery is already at %1$d%%, at the charge target (%2$d%%)</string>
+    <string name="announce_brand_minutes">" I\'ll wake you in %d minutes."</string>
+    <string name="announce_start_charge_target">%1$s, starting now. I\'ll wake you as the charge nears %2$d%%.</string>
+    <string name="announce_start_charge">%s, starting now. I\'ll wake you as charging ends.</string>
+    <string name="announce_start_timed">%1$s, starting now. I\'ll wake you gently in %2$d minutes.</string>
+    <string name="announce_start_manual">%s, starting now. Just tell me when you want to end.</string>
+    <string name="end_restored">The car is back to how it was</string>
+    <string name="wake_announce">Time to wake up. Brightening the lights and raising your seat.</string>
+    <string name="wake_done">Have a refreshing drive</string>
+    <string name="notice_with_route">%1$s. Route left %2$s</string>
+    <string name="orphan_restored">Your last rest didn\'t finish, so the car was restored</string>
+    <string name="rest_limit_reached">Woke you after the max idling rest time (%d min)</string>
+    <string name="charge_ended">Charging has finished</string>
+    <string name="charge_ending_soon">Charging will finish soon</string>
+    <string name="charge_near_target">The charge will reach your %d%% target soon</string>
+    <string name="charge_target_reached">Charged nearly to your %d%% target</string>
+    <string name="battery_low_woke">Woke you because the battery dropped below %d%%</string>
+    <string name="energy_denied">I\'ll judge the end of charging from the battery level instead of the time left</string>
+    <string name="gear_left_park">The gear left P, so Chabun was turned off</string>
+    <string name="gear_left_trial">The gear left P, so Feel it was turned off and the car restored</string>
+    <string name="trial_park_only">Feel it in the car only works while parked in P</string>
+    <string name="unnamed_scene">Untitled scene</string>
+    <string name="scene_saved">Saved \'%s\'</string>
+    <string name="scene_deleted">Deleted \'%s\'</string>
+
+    <!-- 기본 장면(편집하지 않았으면 언어를 따라 바뀐다) -->
+    <string name="concept_cabin_name">Airplane Cabin</string>
+    <string name="concept_cabin_tagline">Like a cabin at cruising altitude, with a low engine hum and mood lighting</string>
+    <string name="concept_space_name">Space Float</string>
+    <string name="concept_space_tagline">Drift through deep space where no sound can reach</string>
+    <string name="concept_rain_cabin_name">Rainy Cabin</string>
+    <string name="concept_rain_cabin_tagline">A warm cabin with raindrops tapping on the roof</string>
+    <string name="concept_dawn_forest_name">Dawn Forest</string>
+    <string name="concept_dawn_forest_tagline">A breath of clean air in a forest where the wind passes through</string>
+    <string name="concept_charging_name">Charge &amp; Rest</string>
+    <string name="concept_charging_tagline">Rest well while charging, and wake up as it finishes</string>
+    <string name="blank_name">Custom scene</string>
+    <string name="blank_tagline">A space made just the way I like it</string>
+
+    <!-- 브랜드관(가상 브랜드) -->
+    <string name="brand_orvel_first_name">First Class</string>
+    <string name="brand_orvel_first_tagline">Your seat unfolds like a bed, into the calm of cruising altitude</string>
+    <string name="brand_orvel">Orvel Air</string>
+    <string name="brand_orvel_welcome">Welcome to Orvel Air First Class. We have reached cruising altitude. Let me recline your seat. Please relax.</string>
+    <string name="brand_orvel_wake">We will soon arrive at your destination. Raising your seatback and brightening the lights.</string>
+    <string name="brand_mapline_suite_name">Suite Turndown</string>
+    <string name="brand_mapline_suite_tagline">Like a suite after turndown service, with soft lights and the sound of rain</string>
+    <string name="brand_mapline">Hotel Mapline</string>
+    <string name="brand_mapline_welcome">You are checked in to your Hotel Mapline suite. Turndown service is ready. Have a good rest.</string>
+    <string name="brand_mapline_wake">This is your wake-up call. Start a refreshing day with Hotel Mapline.</string>
+</resources>

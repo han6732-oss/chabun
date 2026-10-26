@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chabun</string>
+
+    <!-- 공통 -->
+    <string name="cancel">取消</string>
+    <string name="close">关闭</string>
+    <string name="save">保存</string>
+    <string name="minutes">%d分钟</string>
+    <string name="percent">%d%%</string>
+    <string name="level">%d档</string>
+    <string name="celsius">%.1f℃</string>
+    <string name="joined">%1$s：%2$s</string>
+    <string name="list_separator">，</string>
+
+    <!-- 홈 -->
+    <string name="home_subtitle">今天想在什么样的空间里休息？</string>
+    <string name="action_voice">语音操作</string>
+    <string name="action_new_scene">自定义场景</string>
+    <string name="action_settings">设置</string>
+    <string name="action_edit">编辑</string>
+    <string name="tab_my_scenes">我的场景</string>
+    <string name="tab_brand_hall">品牌馆</string>
+    <string name="brand_hall_caption">把航空公司和酒店的休憩搬进车里（演示用虚构品牌）</string>
+    <string name="brand_badge">虚构品牌</string>
+    <string name="parking_not_connected">未连接车辆</string>
+    <string name="parking_checking">正在检查车辆状态</string>
+    <string name="parking_driving">行驶中，停车后可用</string>
+    <string name="parking_brake">P挡，驻车制动，%s</string>
+    <string name="parking_ok">P挡停车中，%s</string>
+    <string name="favorite_add">收藏</string>
+    <string name="favorite_remove">取消收藏</string>
+    <string name="card_tap_to_start">点按开始</string>
+    <string name="card_park_first">停车后即可开始</string>
+    <string name="add_scene_caption">声音、灯光、座椅、空调随心设置</string>
+    <string name="fact_ambient">%1$s %2$d%%</string>
+    <string name="fact_no_sound">无声音</string>
+    <string name="fact_seat">座椅后仰 %d%%</string>
+    <string name="wake_charge_target">充电至%d%%时唤醒</string>
+    <string name="wake_charge_end">充电快结束时唤醒</string>
+    <string name="wake_default_minutes">默认%d分钟后唤醒</string>
+    <string name="wake_manual">直到手动结束</string>
+
+    <!-- 시간 고르기 -->
+    <string name="picker_subtitle">想休息多久？选择后立即开始</string>
+    <string name="picker_default">默认</string>
+    <string name="picker_custom">自定义</string>
+    <string name="picker_rest_for">休息%d分钟</string>
+    <string name="picker_charge_target">充电至%d%%时唤醒</string>
+    <string name="picker_charge_end">充电快结束时唤醒</string>
+    <string name="picker_one_minute">体验1分钟</string>
+
+    <!-- 휴식 화면 -->
+    <string name="phase_entering">正在切换场景…</string>
+    <string name="phase_resting">休息中</string>
+    <string name="phase_waking">正在调亮灯光唤醒您…</string>
+    <string name="phase_restoring">正在恢复原状…</string>
+    <string name="phase_done">已完成</string>
+    <string name="session_wake_later">后轻柔地唤醒您</string>
+    <string name="session_end_any_time">随时可以结束</string>
+    <string name="masking_line">引擎声掩蔽：让引擎震动像巡航中的气流</string>
+    <string name="route_remaining">剩余路线</string>
+    <string name="end">结束</string>
+    <string name="charge_target_suffix">"  /  目标 %d%%"</string>
+    <string name="charge_checking">正在确认充电状态</string>
+    <string name="charge_waiting">开始充电后，会在快结束时唤醒您</string>
+    <string name="charge_minutes_left">%d分钟后充电结束，快结束时唤醒您</string>
+    <string name="charge_minutes_left_estimated">约%d分钟后充电结束，快结束时唤醒您</string>
+    <string name="charge_in_progress">充电中，快结束时唤醒您</string>
+    <string name="vehicle_status">车辆状态</string>
+    <string name="safety_title">安全监测（%s）</string>
+    <string name="safety_parking">停车</string>
+    <string name="safety_parking_detail">一旦离开P挡，立即解除并恢复原状</string>
+    <string name="safety_vent">定期通风</string>
+    <string name="vent_now">通风中：%s</string>
+    <string name="vent_next">%1$s后下次通风，已完成%2$d次</string>
+    <string name="vent_waiting">等待通风</string>
+    <string name="safety_rest_limit">最长休息</string>
+    <string name="rest_limit_left">怠速状态下剩余%s</string>
+    <string name="safety_masking">引擎声掩蔽</string>
+    <string name="masking_detail">正在覆盖%1$s怠速约%2$drpm，%3$dHz谐波频段</string>
+    <string name="safety_charge">充电</string>
+    <string name="charge_on">充电中，接近目标%d%%时唤醒</string>
+    <string name="charge_off">等待充电，连接充电器后开始</string>
+    <string name="safety_battery">电池</string>
+    <string name="battery_checking">确认中</string>
+    <string name="battery_floor_charge">%1$s，未充电时低于%2$d%%会唤醒您</string>
+    <string name="battery_floor">%1$s，低于%2$d%%时唤醒您</string>
+    <string name="step_running">正在应用</string>
+
+    <!-- 설정 -->
+    <string name="settings_screen">显示</string>
+    <string name="theme_soft_dark">柔和深色</string>
+    <string name="theme_system">跟随系统日间/夜间</string>
+    <string name="settings_language">语言</string>
+    <string name="language_voice_note">语音指令请用韩语说。车载语音引擎不支持中文，语音提示将以屏幕通知显示</string>
+    <string name="settings_vehicle">车辆类型</string>
+    <string name="powertrain_auto">自动检测 (%s)</string>
+    <string name="powertrain_try">按%s发动机车体验</string>
+    <string name="quick_cycles">演示用短周期</string>
+    <string name="quick_cycles_detail">每1分钟通风15秒，燃油车最长休息5分钟，每5秒检查电池</string>
+    <string name="voice_guide">语音提示</string>
+    <string name="voice_guide_detail">用语音告知场景开始、唤醒和安全解除</string>
+    <string name="route_briefing">唤醒后播报剩余路线</string>
+    <string name="route_briefing_detail">导航中时，唤醒后告知剩余距离、时间和到达时间</string>
+
+    <!-- 음성 -->
+    <string name="voice_listening_hint">正在聆听。请用韩语说，例如「우주 유영 켜줘」「깨워줘」</string>
+    <string name="voice_stop">停止聆听</string>
+    <string name="voice_heard">“%s”</string>
+    <string name="voice_already_resting">“%s”，已在休息中</string>
+    <string name="voice_not_resting">“%s”，当前没有在休息</string>
+    <string name="voice_unknown">“%1$s”，%2$s</string>
+    <string name="voice_unknown_hint">请试着说「우주 유영 켜줘」</string>
+    <string name="stt_preparing">正在准备语音识别</string>
+    <string name="stt_start_failed">无法启动语音识别</string>
+    <string name="stt_mic">无法使用麦克风</string>
+    <string name="stt_permission">没有语音识别权限</string>
+    <string name="stt_language">无法使用韩语语音识别</string>
+    <string name="stt_timeout">没有听清</string>
+    <string name="stt_error">语音识别错误 (%s)</string>
+
+    <!-- 편집 -->
+    <string name="editor_new">新建场景</string>
+    <string name="editor_edit">编辑场景</string>
+    <string name="reset_default">恢复默认</string>
+    <string name="delete_scene">删除此场景</string>
+    <string name="section_name">名称</string>
+    <string name="field_scene_name">场景名称</string>
+    <string name="field_tagline">一句话介绍</string>
+    <string name="section_backdrop">背景图片</string>
+    <string name="backdrop_color_only">仅灯光颜色</string>
+    <string name="section_sound">声音</string>
+    <string name="sound_none">无</string>
+    <string name="preview_play">试听</string>
+    <string name="preview_stop">停止试听</string>
+    <string name="masking_option_detail">在燃油车上用机舱低音掩盖怠速噪音 (电动车不适用)</string>
+    <string name="toggle_off_detail">不做更改，保持当前状态</string>
+    <string name="brightness">亮度</string>
+    <string name="section_recline">座椅后仰</string>
+    <string name="recline_range">直立 ↔ 深度</string>
+    <string name="section_climate">空调</string>
+    <string name="temperature">温度</string>
+    <string name="fan">风量</string>
+    <string name="recirc_in">内循环</string>
+    <string name="recirc_out">外循环</string>
+    <string name="section_window">开窗通风</string>
+    <string name="keep_as_is">保持不变</string>
+    <string name="window_close">关闭</string>
+    <string name="window_open">打开%d%%</string>
+    <string name="section_steering">唤醒前方向盘加热</string>
+    <string name="steering_detail">起床前1分钟开启，握住方向盘时是暖的 (定时或充电唤醒时)</string>
+    <string name="steering_off">不开启</string>
+    <string name="section_default_wake">默认唤醒</string>
+    <string name="default_wake_detail">点按场景时默认选中的值。每次开始时都可以更改时间</string>
+    <string name="wake_manual_short">手动结束</string>
+    <string name="charge_end_option">充电快结束时</string>
+    <string name="charge_target">充电目标</string>
+    <string name="charge_to_limit">到车辆充电上限</string>
+    <string name="charge_target_detail">在达到目标前不久唤醒。若高于车辆充电上限，则在上限时唤醒</string>
+    <string name="trial_title">在车里立即体验</string>
+    <string name="trial_on">更改座椅和灯光时会立即动作</string>
+    <string name="trial_off">关闭或退出后恢复原状</string>
+
+    <!-- 소리·배경·조명 색 -->
+    <string name="sound_cabin">飞机机舱</string>
+    <string name="sound_rain">雨中小屋</string>
+    <string name="sound_space">太空</string>
+    <string name="sound_forest">林间小路</string>
+    <string name="backdrop_cabin">飞机舷窗</string>
+    <string name="backdrop_space">地球轨道</string>
+    <string name="backdrop_rain_cabin">雨中窗边</string>
+    <string name="backdrop_forest">黎明林间小路</string>
+    <string name="backdrop_first_suite">头等舱套间</string>
+    <string name="backdrop_hotel_suite">酒店套房</string>
+    <string name="ambient_cabin_purple">机舱紫</string>
+    <string name="ambient_deep_space">深空藏青</string>
+    <string name="ambient_amber">篝火琥珀</string>
+    <string name="ambient_forest_green">黎明森林绿</string>
+    <string name="ambient_deep_sea">深海</string>
+    <string name="ambient_sunset_pink">晚霞粉</string>
+    <string name="ambient_moon_cream">月光奶油</string>
+    <string name="ambient_theater_red">剧院深红</string>
+
+    <!-- 차량 -->
+    <string name="domain_seat">座椅</string>
+    <string name="domain_climate">空调</string>
+    <string name="domain_ambient">氛围灯</string>
+    <string name="domain_window">车窗</string>
+    <string name="domain_steering">方向盘加热</string>
+    <string name="powertrain_gasoline">汽油</string>
+    <string name="powertrain_diesel">柴油</string>
+    <string name="powertrain_lpg">LPG</string>
+    <string name="powertrain_hybrid">混合动力</string>
+    <string name="powertrain_electric">电动车</string>
+    <string name="powertrain_hydrogen">氢燃料电池车</string>
+    <string name="powertrain_unknown">未知</string>
+
+    <!-- 차량 제어 단계 -->
+    <string name="step_hvac_power_off">电源关闭(无法控制风量)</string>
+    <string name="step_fan">风量%d档</string>
+    <string name="step_climate_failed">空调控制失败</string>
+    <string name="step_window_open">前窗打开%d%%</string>
+    <string name="step_window_failed">车窗控制失败</string>
+    <string name="step_seat_original">原始姿势 (%d)</string>
+    <string name="step_seat_recline">靠背 %1$d (后仰%2$d%%)</string>
+    <string name="step_steering_prewarm">唤醒前%d档</string>
+    <string name="step_steering_restored">已恢复</string>
+    <string name="step_lights_up">缓缓调亮</string>
+    <string name="step_breeze">凉爽的风</string>
+    <string name="step_breeze_unavailable">无法送风(空调关闭)</string>
+    <string name="step_climate_restored">已恢复原空调</string>
+    <string name="step_lights_restored">已恢复原灯光</string>
+    <string name="step_window_closed">车窗已关闭</string>
+    <string name="step_brightness">亮度%d%%</string>
+    <string name="step_color">颜色 #%06X</string>
+    <string name="step_lights_failed">灯光控制失败</string>
+    <string name="step_unsupported">此车辆不支持</string>
+    <string name="step_seat_not_moving">座椅未移动，已跳过</string>
+    <string name="vent_window">前窗%d%%</string>
+    <string name="vent_fan">调高风量</string>
+    <string name="vent_nothing">没有可用于通风的装置</string>
+    <string name="vent_preparing">正在准备通风</string>
+
+    <!-- 안내·알림 -->
+    <string name="vehicle_connect_failed">车辆连接失败: %s</string>
+    <string name="start_park_only">Chabun仅在P挡停车时可以开始</string>
+    <string name="charge_ev_only">充电等待适用于电动车</string>
+    <string name="battery_too_low">电池电量为%1$d%%，低于下限(%2$d%%)，未开始</string>
+    <string name="battery_already_target">电池电量已达%1$d%%，已到充电目标(%2$d%%)</string>
+    <string name="announce_brand_minutes">"%d分钟后为您叫醒。"</string>
+    <string name="announce_start_charge_target">%1$s，现在开始。充电接近%2$d%%时唤醒您。</string>
+    <string name="announce_start_charge">%s，现在开始。充电快结束时唤醒您。</string>
+    <string name="announce_start_timed">%1$s，现在开始。%2$d分钟后轻柔地唤醒您。</string>
+    <string name="announce_start_manual">%s，现在开始。想结束时请告诉我。</string>
+    <string name="end_restored">已恢复原状</string>
+    <string name="wake_announce">该起床了。正在调亮灯光，并把座椅恢复原位。</string>
+    <string name="wake_done">祝您一路神清气爽</string>
+    <string name="notice_with_route">%1$s。剩余路线 %2$s</string>
+    <string name="orphan_restored">上次休息没有正常结束，已将车辆恢复原状</string>
+    <string name="rest_limit_reached">怠速状态下已超过最长休息时间(%d分钟)，已唤醒您</string>
+    <string name="charge_ended">充电已结束</string>
+    <string name="charge_ending_soon">充电即将结束</string>
+    <string name="charge_near_target">即将达到充电目标%d%%</string>
+    <string name="charge_target_reached">已接近充电目标%d%%</string>
+    <string name="battery_low_woke">电池电量低于%d%%，已唤醒您</string>
+    <string name="energy_denied">将根据电池电量变化而非剩余时间判断充电结束</string>
+    <string name="gear_left_park">挡位离开P挡，已解除Chabun</string>
+    <string name="gear_left_trial">挡位离开P挡，已关闭立即体验并恢复原状</string>
+    <string name="trial_park_only">立即体验仅在P挡停车时可用</string>
+    <string name="unnamed_scene">未命名场景</string>
+    <string name="scene_saved">已保存「%s」</string>
+    <string name="scene_deleted">已删除「%s」</string>
+
+    <!-- 기본 장면(편집하지 않았으면 언어를 따라 바뀐다) -->
+    <string name="concept_cabin_name">飞机机舱</string>
+    <string name="concept_cabin_tagline">如同巡航高度的机舱，低沉的引擎声与氛围灯光</string>
+    <string name="concept_space_name">太空漫游</string>
+    <string name="concept_space_tagline">仿佛漂浮在任何声音都无法抵达的深空</string>
+    <string name="concept_rain_cabin_name">雨中小屋</string>
+    <string name="concept_rain_cabin_tagline">雨滴轻敲屋顶的温暖小屋</string>
+    <string name="concept_dawn_forest_name">黎明森林</string>
+    <string name="concept_dawn_forest_tagline">在微风拂过的森林里，呼吸一口清新空气</string>
+    <string name="concept_charging_name">充电等待</string>
+    <string name="concept_charging_tagline">充电时好好休息，快结束时准时醒来</string>
+    <string name="blank_name">自定义场景</string>
+    <string name="blank_tagline">按自己喜好打造的空间</string>
+
+    <!-- 브랜드관(가상 브랜드) -->
+    <string name="brand_orvel_first_name">头等舱</string>
+    <string name="brand_orvel_first_tagline">把座椅展开成床，进入巡航高度的宁静</string>
+    <string name="brand_orvel">奥维尔航空</string>
+    <string name="brand_orvel_welcome">欢迎乘坐奥维尔航空头等舱。我们已到达巡航高度。现在为您展开座椅，请好好休息。</string>
+    <string name="brand_orvel_wake">尊敬的旅客，即将抵达目的地。现在为您竖起座椅靠背并调亮灯光。</string>
+    <string name="brand_mapline_suite_name">套房夜床服务</string>
+    <string name="brand_mapline_suite_tagline">如同做完夜床服务的套房，柔和的灯光与雨声</string>
+    <string name="brand_mapline">梅普林酒店</string>
+    <string name="brand_mapline_welcome">您已入住梅普林酒店套房。夜床服务已准备好，祝您休息愉快。</string>
+    <string name="brand_mapline_wake">这是您的叫醒服务。请在梅普林酒店开启清爽的一天。</string>
+</resources>

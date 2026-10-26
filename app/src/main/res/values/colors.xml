@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 부드러운 다크 바탕(SoftDarkPleos.background). 앱이 뜨는 순간의 창 배경 -->
+    <color name="chabun_background">#FF18191C</color>
+    <color name="chabun_icon_background">#FF142638</color>
+</resources>

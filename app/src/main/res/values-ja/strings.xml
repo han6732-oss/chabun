@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chabun</string>
+
+    <!-- 공통 -->
+    <string name="cancel">キャンセル</string>
+    <string name="close">閉じる</string>
+    <string name="save">保存</string>
+    <string name="minutes">%d分</string>
+    <string name="percent">%d%%</string>
+    <string name="level">レベル%d</string>
+    <string name="celsius">%.1f℃</string>
+    <string name="joined">%1$s：%2$s</string>
+    <string name="list_separator">、</string>
+
+    <!-- 홈 -->
+    <string name="home_subtitle">今日はどんな空間で休みますか</string>
+    <string name="action_voice">音声で操作</string>
+    <string name="action_new_scene">オリジナルシーン</string>
+    <string name="action_settings">設定</string>
+    <string name="action_edit">編集</string>
+    <string name="tab_my_scenes">マイシーン</string>
+    <string name="tab_brand_hall">ブランドラウンジ</string>
+    <string name="brand_hall_caption">航空会社やホテルの休息を車の中に(デモ用の架空ブランド)</string>
+    <string name="brand_badge">架空ブランド</string>
+    <string name="parking_not_connected">車両に未接続</string>
+    <string name="parking_checking">車両の状態を確認中</string>
+    <string name="parking_driving">走行中、停車後に使えます</string>
+    <string name="parking_brake">Pレンジ、パーキングブレーキ、%s</string>
+    <string name="parking_ok">Pレンジで停車中、%s</string>
+    <string name="favorite_add">お気に入り</string>
+    <string name="favorite_remove">お気に入りを解除</string>
+    <string name="card_tap_to_start">タップして開始</string>
+    <string name="card_park_first">停車後に開始できます</string>
+    <string name="add_scene_caption">音、照明、シート、空調を好みどおりに</string>
+    <string name="fact_ambient">%1$s %2$d%%</string>
+    <string name="fact_no_sound">音なし</string>
+    <string name="fact_seat">シート %d%% 倒す</string>
+    <string name="wake_charge_target">充電%d%%で起床</string>
+    <string name="wake_charge_end">充電終了ごろに起床</string>
+    <string name="wake_default_minutes">標準 %d分後に起床</string>
+    <string name="wake_manual">自分で終えるまで</string>
+
+    <!-- 시간 고르기 -->
+    <string name="picker_subtitle">どれくらい休みますか？選ぶとすぐに始まります</string>
+    <string name="picker_default">標準</string>
+    <string name="picker_custom">自分で設定</string>
+    <string name="picker_rest_for">%d分休む</string>
+    <string name="picker_charge_target">充電%d%%で起こす</string>
+    <string name="picker_charge_end">充電終了ごろに起こす</string>
+    <string name="picker_one_minute">1分お試し</string>
+
+    <!-- 휴식 화면 -->
+    <string name="phase_entering">シーンに切り替え中…</string>
+    <string name="phase_resting">休憩中</string>
+    <string name="phase_waking">照明を明るくして起こしています…</string>
+    <string name="phase_restoring">元の状態に戻しています…</string>
+    <string name="phase_done">完了しました</string>
+    <string name="session_wake_later">後にゆっくり起こします</string>
+    <string name="session_end_any_time">好きなときに終えてください</string>
+    <string name="masking_line">エンジン音マスキング：エンジンの振動を巡航中の気流のように</string>
+    <string name="route_remaining">残りのルート</string>
+    <string name="end">終了</string>
+    <string name="charge_target_suffix">"  /  目標 %d%%"</string>
+    <string name="charge_checking">充電状態を確認しています</string>
+    <string name="charge_waiting">充電を始めると、終わるころに起こします</string>
+    <string name="charge_minutes_left">%d分後に充電が終わります。終わるころに起こします</string>
+    <string name="charge_minutes_left_estimated">約%d分後に充電が終わります。終わるころに起こします</string>
+    <string name="charge_in_progress">充電中です。終わるころに起こします</string>
+    <string name="vehicle_status">車両の状態</string>
+    <string name="safety_title">安全監視(%s)</string>
+    <string name="safety_parking">停車</string>
+    <string name="safety_parking_detail">Pレンジから外れるとすぐに解除して元に戻します</string>
+    <string name="safety_vent">定期換気</string>
+    <string name="vent_now">換気中：%s</string>
+    <string name="vent_next">次の換気まで %1$s、%2$d回完了</string>
+    <string name="vent_waiting">換気待機中</string>
+    <string name="safety_rest_limit">最大休憩</string>
+    <string name="rest_limit_left">アイドリング状態で残り %s</string>
+    <string name="safety_masking">エンジン音マスキング</string>
+    <string name="masking_detail">%1$s アイドリング約%2$drpm、%3$dHzの倍音帯域をカバー中</string>
+    <string name="safety_charge">充電</string>
+    <string name="charge_on">充電中、目標%d%%付近で起こします</string>
+    <string name="charge_off">充電待機、充電器をつなぐと始まります</string>
+    <string name="safety_battery">バッテリー</string>
+    <string name="battery_checking">確認中</string>
+    <string name="battery_floor_charge">%1$s、充電中でなければ%2$d%%を下回ると起こします</string>
+    <string name="battery_floor">%1$s、%2$d%%を下回ると起こします</string>
+    <string name="step_running">適用中</string>
+
+    <!-- 설정 -->
+    <string name="settings_screen">画面</string>
+    <string name="theme_soft_dark">ソフトダーク</string>
+    <string name="theme_system">システムの昼夜設定に合わせる</string>
+    <string name="settings_language">言語</string>
+    <string name="language_voice_note">音声コマンドは韓国語で話してください。車の音声エンジンが日本語に対応していないため、音声案内は画面のお知らせで表示します</string>
+    <string name="settings_vehicle">車両の種類</string>
+    <string name="powertrain_auto">自動検出 (%s)</string>
+    <string name="powertrain_try">%sエンジン車として体験</string>
+    <string name="quick_cycles">デモ用の短い周期</string>
+    <string name="quick_cycles_detail">換気 1分ごとに15秒、エンジン車の最大休憩 5分、バッテリー 5秒ごとに確認</string>
+    <string name="voice_guide">音声案内</string>
+    <string name="voice_guide_detail">シーン開始、起床、安全解除を音声でお知らせします</string>
+    <string name="route_briefing">起床後の残りルート案内</string>
+    <string name="route_briefing_detail">ナビの案内中なら、起こした後に残りの距離、時間、到着時刻をお知らせします</string>
+
+    <!-- 음성 -->
+    <string name="voice_listening_hint">聞いています。韓国語で「우주 유영 켜줘」「깨워줘」のように話してください</string>
+    <string name="voice_stop">聞き取りを停止</string>
+    <string name="voice_heard">“%s”</string>
+    <string name="voice_already_resting">“%s”、すでに休憩中です</string>
+    <string name="voice_not_resting">“%s”、今は休憩中ではありません</string>
+    <string name="voice_unknown">“%1$s”、%2$s</string>
+    <string name="voice_unknown_hint">「우주 유영 켜줘」のように話してください</string>
+    <string name="stt_preparing">音声認識を準備しています</string>
+    <string name="stt_start_failed">音声認識を開始できませんでした</string>
+    <string name="stt_mic">マイクを使用できません</string>
+    <string name="stt_permission">音声認識の権限がありません</string>
+    <string name="stt_language">韓国語の音声認識を使用できません</string>
+    <string name="stt_timeout">聞き取れませんでした</string>
+    <string name="stt_error">音声認識エラー (%s)</string>
+
+    <!-- 편집 -->
+    <string name="editor_new">新しいシーンを作成</string>
+    <string name="editor_edit">シーンを編集</string>
+    <string name="reset_default">初期設定に戻す</string>
+    <string name="delete_scene">このシーンを削除</string>
+    <string name="section_name">名前</string>
+    <string name="field_scene_name">シーン名</string>
+    <string name="field_tagline">ひとこと紹介</string>
+    <string name="section_backdrop">背景画像</string>
+    <string name="backdrop_color_only">照明の色のみ</string>
+    <string name="section_sound">サウンド</string>
+    <string name="sound_none">なし</string>
+    <string name="preview_play">試聴</string>
+    <string name="preview_stop">試聴を停止</string>
+    <string name="masking_option_detail">エンジン車のアイドリング音を機内の低音で覆います (電気自動車は対象外)</string>
+    <string name="toggle_off_detail">変更せず、今の状態のままにします</string>
+    <string name="brightness">明るさ</string>
+    <string name="section_recline">シートリクライニング</string>
+    <string name="recline_range">まっすぐ ↔ 深く</string>
+    <string name="section_climate">空調</string>
+    <string name="temperature">温度</string>
+    <string name="fan">風量</string>
+    <string name="recirc_in">内気循環</string>
+    <string name="recirc_out">外気導入</string>
+    <string name="section_window">窓の換気</string>
+    <string name="keep_as_is">そのまま</string>
+    <string name="window_close">閉じる</string>
+    <string name="window_open">%d%% 開ける</string>
+    <string name="section_steering">起床前のステアリングヒーター</string>
+    <string name="steering_detail">起きる1分前にオンにして、ハンドルを握るときに温かくします (タイマーや充電で起こすとき)</string>
+    <string name="steering_off">オンにしない</string>
+    <string name="section_default_wake">標準の起床</string>
+    <string name="default_wake_detail">シーンをタップしたときに最初に選ばれている値です。時間は開始するたびに変えられます</string>
+    <string name="wake_manual_short">自分で終える</string>
+    <string name="charge_end_option">充電終了ごろ</string>
+    <string name="charge_target">充電目標</string>
+    <string name="charge_to_limit">車の充電上限まで</string>
+    <string name="charge_target_detail">目標に届く少し前に起こします。車の充電上限より高く設定すると、上限で起こします</string>
+    <string name="trial_title">車ですぐ体験</string>
+    <string name="trial_on">シートや照明を変えるとすぐに動きます</string>
+    <string name="trial_off">オフにするか閉じると元に戻ります</string>
+
+    <!-- 소리·배경·조명 색 -->
+    <string name="sound_cabin">飛行機の機内</string>
+    <string name="sound_rain">雨の山小屋</string>
+    <string name="sound_space">宇宙</string>
+    <string name="sound_forest">森の小道</string>
+    <string name="backdrop_cabin">飛行機の窓辺</string>
+    <string name="backdrop_space">地球軌道</string>
+    <string name="backdrop_rain_cabin">雨の窓辺</string>
+    <string name="backdrop_forest">夜明けの森の小道</string>
+    <string name="backdrop_first_suite">ファーストスイート</string>
+    <string name="backdrop_hotel_suite">ホテルスイート</string>
+    <string name="ambient_cabin_purple">機内パープル</string>
+    <string name="ambient_deep_space">深宇宙ネイビー</string>
+    <string name="ambient_amber">焚き火アンバー</string>
+    <string name="ambient_forest_green">夜明けの森グリーン</string>
+    <string name="ambient_deep_sea">深海</string>
+    <string name="ambient_sunset_pink">夕焼けピンク</string>
+    <string name="ambient_moon_cream">月明かりクリーム</string>
+    <string name="ambient_theater_red">劇場クリムゾン</string>
+
+    <!-- 차량 -->
+    <string name="domain_seat">シート</string>
+    <string name="domain_climate">空調</string>
+    <string name="domain_ambient">アンビエントライト</string>
+    <string name="domain_window">窓</string>
+    <string name="domain_steering">ステアリングヒーター</string>
+    <string name="powertrain_gasoline">ガソリン</string>
+    <string name="powertrain_diesel">ディーゼル</string>
+    <string name="powertrain_lpg">LPG</string>
+    <string name="powertrain_hybrid">ハイブリッド</string>
+    <string name="powertrain_electric">電気自動車</string>
+    <string name="powertrain_hydrogen">燃料電池車</string>
+    <string name="powertrain_unknown">不明</string>
+
+    <!-- 차량 제어 단계 -->
+    <string name="step_hvac_power_off">電源オフ(風量は制御不可)</string>
+    <string name="step_fan">風量 %d</string>
+    <string name="step_climate_failed">空調の制御に失敗</string>
+    <string name="step_window_open">前の窓 %d%% 開</string>
+    <string name="step_window_failed">窓の制御に失敗</string>
+    <string name="step_seat_original">元の姿勢 (%d)</string>
+    <string name="step_seat_recline">背もたれ %1$d (%2$d%% リクライニング)</string>
+    <string name="step_steering_prewarm">起床前にレベル%d</string>
+    <string name="step_steering_restored">元どおり</string>
+    <string name="step_lights_up">ゆっくり明るく</string>
+    <string name="step_breeze">涼しい風</string>
+    <string name="step_breeze_unavailable">送風できません(空調オフ)</string>
+    <string name="step_climate_restored">元の空調に復元</string>
+    <string name="step_lights_restored">元の照明に復元</string>
+    <string name="step_window_closed">窓を閉めました</string>
+    <string name="step_brightness">明るさ %d%%</string>
+    <string name="step_color">色 #%06X</string>
+    <string name="step_lights_failed">照明の制御に失敗</string>
+    <string name="step_unsupported">この車両は非対応</string>
+    <string name="step_seat_not_moving">シートが動かないためスキップ</string>
+    <string name="vent_window">前の窓 %d%%</string>
+    <string name="vent_fan">風量アップ</string>
+    <string name="vent_nothing">換気できる装置がありません</string>
+    <string name="vent_preparing">換気の準備中</string>
+
+    <!-- 안내·알림 -->
+    <string name="vehicle_connect_failed">車両に接続できませんでした: %s</string>
+    <string name="start_park_only">ChabunはPレンジで停車しているときだけ開始できます</string>
+    <string name="charge_ev_only">充電待機は電気自動車で使えます</string>
+    <string name="battery_too_low">バッテリーが%1$d%%で下限(%2$d%%)より低いため、開始しませんでした</string>
+    <string name="battery_already_target">バッテリーがすでに%1$d%%で、充電目標(%2$d%%)に達しています</string>
+    <string name="announce_brand_minutes">"%d分後にお起こしします。"</string>
+    <string name="announce_start_charge_target">%1$s、始めます。充電が%2$d%%に近づいたら起こします。</string>
+    <string name="announce_start_charge">%s、始めます。充電が終わるころに起こします。</string>
+    <string name="announce_start_timed">%1$s、始めます。%2$d分後にゆっくり起こします。</string>
+    <string name="announce_start_manual">%s、始めます。終えたいときはお知らせください。</string>
+    <string name="end_restored">元の状態に戻りました</string>
+    <string name="wake_announce">起きる時間です。照明を明るくして、シートを元に戻します。</string>
+    <string name="wake_done">すっきりした気分でいってらっしゃい</string>
+    <string name="notice_with_route">%1$s。残りのルート %2$s</string>
+    <string name="orphan_restored">前回の休憩が終わっていなかったため、車を元の状態に戻しました</string>
+    <string name="rest_limit_reached">アイドリング状態で最大休憩時間(%d分)を過ぎたため、起こしました</string>
+    <string name="charge_ended">充電が終わりました</string>
+    <string name="charge_ending_soon">まもなく充電が終わります</string>
+    <string name="charge_near_target">まもなく充電目標の%d%%に届きます</string>
+    <string name="charge_target_reached">充電目標の%d%%近くまで充電しました</string>
+    <string name="battery_low_woke">バッテリーが%d%%を下回ったため、起こしました</string>
+    <string name="energy_denied">充電の残り時間の代わりに、バッテリー残量の変化で充電の終わりを判断します</string>
+    <string name="gear_left_park">ギアがPから外れたため、Chabunを解除しました</string>
+    <string name="gear_left_trial">ギアがPから外れたため、すぐ体験をオフにして元に戻しました</string>
+    <string name="trial_park_only">すぐ体験はPレンジで停車しているときだけ使えます</string>
+    <string name="unnamed_scene">名前のないシーン</string>
+    <string name="scene_saved">「%s」を保存しました</string>
+    <string name="scene_deleted">「%s」を削除しました</string>
+
+    <!-- 기본 장면(편집하지 않았으면 언어를 따라 바뀐다) -->
+    <string name="concept_cabin_name">飛行機の機内</string>
+    <string name="concept_cabin_tagline">巡航高度の機内のように、低く響くエンジン音とムード照明</string>
+    <string name="concept_space_name">宇宙遊泳</string>
+    <string name="concept_space_tagline">どんな音も届かない深い宇宙を漂うように</string>
+    <string name="concept_rain_cabin_name">雨の山小屋</string>
+    <string name="concept_rain_cabin_tagline">雨粒が屋根をたたく、暖かな山小屋</string>
+    <string name="concept_dawn_forest_name">夜明けの森</string>
+    <string name="concept_dawn_forest_tagline">風が通り抜ける森で、澄んだ空気をひと息</string>
+    <string name="concept_charging_name">充電待機</string>
+    <string name="concept_charging_tagline">充電のあいだぐっすり休み、終わるころに目覚めます</string>
+    <string name="blank_name">オリジナルシーン</string>
+    <string name="blank_tagline">好みどおりに作った空間</string>
+
+    <!-- 브랜드관(가상 브랜드) -->
+    <string name="brand_orvel_first_name">ファーストクラス</string>
+    <string name="brand_orvel_first_tagline">座席をベッドのように広げて、巡航高度の静けさへ</string>
+    <string name="brand_orvel">オルベル航空</string>
+    <string name="brand_orvel_welcome">オルベル航空ファーストクラスへようこそ。巡航高度に達しました。座席をお広げします。ごゆっくりおくつろぎください。</string>
+    <string name="brand_orvel_wake">お客様、まもなく目的地に到着いたします。座席の背もたれを起こし、照明を明るくいたします。</string>
+    <string name="brand_mapline_suite_name">スイートターンダウン</string>
+    <string name="brand_mapline_suite_tagline">ターンダウンサービスを終えたスイートのように、やわらかな照明と雨音</string>
+    <string name="brand_mapline">ホテルメイプリン</string>
+    <string name="brand_mapline_welcome">ホテルメイプリンのスイートにチェックインされました。ターンダウンサービスをご用意しました。よいご休息を。</string>
+    <string name="brand_mapline_wake">モーニングコールです。ホテルメイプリンで爽やかな一日をお始めください。</string>
+</resources>
