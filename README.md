@@ -19,10 +19,10 @@
 
 ## APK
 
-- **GitHub Release**: https://github.com/han6732-oss/chabun/releases/tag/v0.1.0
-- **파일**: `한동훈_차분_release.apk` (release 빌드, 버전 0.1.0, 약 54MB, Android 디버그 키로 서명)
+- **저장소 안 위치**: [`apk/한동훈_차분_release.apk`](apk/한동훈_차분_release.apk)
+- **GitHub Release**: https://github.com/han6732-oss/chabun/releases/tag/v0.1.0 (같은 파일입니다. GitHub가 파일 이름의 한글을 바꿔, Release에서 내려받으면 `_._release.apk`로 저장됩니다.)
+- **빌드**: release 빌드, 버전 0.1.0, 약 54MB, Android 디버그 키로 서명
 - **패키지**: `com.chabun.app` (minSdk 28, targetSdk 34)
-- APK 용량이 GitHub 업로드 한도를 넘어 저장소 대신 GitHub Release에 올렸습니다.
 
 ## 테스트 환경
 
@@ -42,9 +42,9 @@
    ```bash
    emulator -avd <AVD 이름> -no-snapshot
    ```
-2. Release 페이지에서 받은 APK를 설치하고 실행합니다. 런처의 앱 목록에서 '차분'을 눌러도 됩니다. 앱은 홈 화면 오른쪽 앱 영역에 열립니다.
+2. 저장소의 APK를 설치하고 실행합니다(Release에서 받았다면 그 파일 경로로 바꿉니다). 런처의 앱 목록에서 '차분'을 눌러도 됩니다. 앱은 홈 화면 오른쪽 앱 영역에 열립니다.
    ```bash
-   adb install -r 한동훈_차분_release.apk
+   adb install -r apk/한동훈_차분_release.apk
    adb shell am start -n com.chabun.app/.MainActivity
    ```
 3. Virtual Console에서 기어를 P에 둡니다(아래 '필요한 설정'). 장면은 P단에서만 시작됩니다.
@@ -90,6 +90,7 @@ adb forward tcp:8088 tcp:8088
 
 | 경로 | 내용 |
 |---|---|
+| `apk/` | 제출용 release APK |
 | `app/` | 앱 소스(Kotlin, Jetpack Compose) |
 | `docs/` | 기능별 화면 캡처 |
 | `assets/`, `이미지/` | 장면 이미지 원본과 생성 프롬프트 |
