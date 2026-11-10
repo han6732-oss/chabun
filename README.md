@@ -2,6 +2,15 @@
 
 정차 중 버튼 하나로 시트, 공조, 조명, 창문, 사운드를 바꿔 차 안을 쉬는 공간으로 만드는 Pleos Connect 앱입니다.
 
+현대자동차그룹 차량용 앱 개발 공모전 출품작입니다(개인 참가: 한동훈). 공개 저장소이며 소스 코드와 release APK가 함께 들어 있습니다.
+
+| 제출 안내 항목 | 위치 |
+|---|---|
+| 앱 이름 및 한 줄 소개 | 이 문단 |
+| 실행 방법 | [실행 방법](#실행-방법) |
+| 테스트 환경 및 필요한 설정 | [테스트 환경](#테스트-환경), [필요한 설정](#필요한-설정) |
+| APK 파일 위치 | [`apk/한동훈_차분_release.apk`](apk/한동훈_차분_release.apk), [GitHub Release v0.1.0](https://github.com/han6732-oss/chabun/releases/tag/v0.1.0) |
+
 | 홈 | 휴식 중 |
 |---|---|
 | <img src="docs/home.png" width="420"> | <img src="docs/session.png" width="420"> |
@@ -42,8 +51,10 @@
    ```bash
    emulator -avd <AVD 이름> -no-snapshot
    ```
-2. 저장소의 APK를 설치하고 실행합니다(Release에서 받았다면 그 파일 경로로 바꿉니다). 런처의 앱 목록에서 '차분'을 눌러도 됩니다. 앱은 홈 화면 오른쪽 앱 영역에 열립니다.
+2. 저장소를 받아 APK를 설치하고 실행합니다(Release에서 받았다면 그 파일 경로로 바꿉니다). 런처의 앱 목록에서 '차분'을 눌러도 됩니다. 앱은 홈 화면 오른쪽 앱 영역에 열립니다.
    ```bash
+   git clone https://github.com/han6732-oss/chabun.git
+   cd chabun
    adb install -r apk/한동훈_차분_release.apk
    adb shell am start -n com.chabun.app/.MainActivity
    ```

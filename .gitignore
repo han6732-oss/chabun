@@ -18,5 +18,8 @@
 # 접수양식에는 개인정보(연락처, 이메일)가 있으므로 저장소에 올리지 않습니다.
 *.docx
 
+# 시연 영상은 이메일로 제출한다(100MB를 넘어 GitHub에 올릴 수 없음).
+*.mp4
+
 # 앰비언트 원본 녹음(수백 MB). 앱에는 tools/make_ambience.sh로 자른 res/raw/ambience_*.mp3만 넣는다.
 /music/
